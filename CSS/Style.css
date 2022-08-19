@@ -1,0 +1,196 @@
+/* Universal Selector */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+/* Element/Name Selector */
+body{
+    background-color: rgba(76, 107, 83, 0.26);
+
+}
+/* ID Selector */
+#Admin_Box{
+    /* background-color: LightGray; */
+    width: 30%;
+    margin: 30px auto;
+    padding: 20px;
+    border-style: double;
+    border-width: 5px;
+    border-color: red
+    
+    
+
+}
+/* Class Selector */
+.Admin_Image{
+width: 200px;
+border-radius: 100px;
+border: 4px solid rgb(236, 9, 9);
+margin-left: 190px;
+
+
+}
+/* Decendent Selector */
+    #Admin_Box h1{ font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: Georgia, serif;
+
+
+}
+/* Grouping Selector */
+input, label{
+display: inline;
+width: 80%;
+padding: 10px;
+border-radius: 10px;
+}
+
+input{
+    background-color: rgba(241, 198, 169, 0.829);
+    text-align: center;
+    color: rgb(10, 15, 15);
+    border: 2px solid black;
+    width: 37%;
+    height: 7px;
+    margin: 5px 10px 5px 5px;
+    font-size: 15px;
+ 
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 22px;
+    color: rgb(17, 14, 14);
+    margin: 5px;
+    padding: 1%;
+    text-align: center;
+    font-weight: bold;
+}
+p a{
+    text-decoration: none;
+    color: rgb(10, 10, 9);
+    text-transform: uppercase;
+    background-color: red;
+    padding: 5px;
+    
+   
+}
+input:focus{
+    background-color: rgba(240, 250, 240, 0.623);
+
+}
+input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+input[type="Submit"]{
+    display: block;
+    background-color: red;
+    margin: 10px auto;
+    width: 25%;
+    height: 42px;
+    border: 2px solid black;
+    transition: ease-in-out 0.5s;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+input[type="Submit"]:hover{
+    background-color: rgb(209, 240, 224);
+    border: 3px solid blue;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(16, 13, 190);
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-thickness: 2px; 
+    font-weight: bold;
+    font-size: 15px
+    
+}
+textarea{
+    background-color: rgba(7, 167, 114, 0.829);
+    margin: 3px 0px 0px 0px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: large;
+    width: 575px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+textarea:focus{
+    background-color: rgba(241, 198, 169, 0.829);
+}
+textarea::placeholder{
+    color: rgb(58, 58, 22);
+}
+.Gender{
+    display: inline;
+    margin: 10px 1px 1px 1px;
+    width: 70px;
+}
+select{
+    display: inline;
+    margin: 10px 0px 0px 0px;
+    width: 70px;
+    background-color: rgba(241, 198, 169, 0.829);
+    border: 2px solid black;
+    font-weight: bold;
+    height: 25px;
+}
+select[name="Country"]{
+    width: 250px;
+}
+select[name="Days"]{
+
+    width: 50px;
+}
+select[name="Month"]{
+    width: 100px;
+}
+.lost{
+    margin-left: 170px;
+}
+.name{
+    margin-left: 70px;
+}
+.pass{
+    margin-left: 83px;
+}
+.a{
+    margin-left: 35px;
+}
+.b{
+    margin-left: 8px;
+}
+.c{
+    margin-left: 31px;
+}
+.d{
+    font-size: 15px;
+}
+label[for="National ID"]{
+    margin-left: 0px;
+    font-size: 19px;
+}
+label[for="ID type"]{
+    margin-left: 0px;
+    font-size: 18px;
+}
+.e{
+    width: 180px;
+}
+select[name="ID"]{
+    width: 95px;
+}
